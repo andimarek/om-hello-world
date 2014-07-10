@@ -14,7 +14,7 @@
   (reify
     om/IRender
     (render [this]
-      (dom/h1 nil (:text data)))))
+      (dom/h1 nil (dom/span nil (:text data))))))
 
-(om/root widget {:text "Hello world!"}
+(om/root widget {:text "Hello world2!"}
   {:target (. js/document (getElementById "app"))})

@@ -1,2 +1,8 @@
 out
 app.js
+target
+.repl
+
+.DS_Store
+.lein-repl-history
+.nrepl-port
