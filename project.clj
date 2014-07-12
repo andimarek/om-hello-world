@@ -15,8 +15,8 @@
 
   :plugins [[com.cemerick/austin "0.1.4"] [lein-cljsbuild "1.0.3"]]
   :repl-options {
-                 :init-ns helloworld.bcrepl
-                 }
+                 :init-ns helloworld.app
+                }
   :source-paths ["src" "src-clj"]
 
   :cljsbuild { 

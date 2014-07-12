@@ -1,4 +1,4 @@
-(ns helloworld.bcrepl
+(ns helloworld.app
   (:require [cemerick.austin.repls :refer (browser-connected-repl-js)]
             [net.cgrand.enlive-html :as enlive]
             [compojure.route :refer (resources)]
