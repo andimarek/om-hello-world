@@ -6,7 +6,8 @@
             [om.core :as om :include-macros true]
             [om.dom :as dom :include-macros true]
             [secretary.core :as secretary]
-            [clojure.string :as string])
+            [clojure.string :as string]
+            [clojure.browser.repl])
   (:import [goog History]
            [goog.history EventType]))
 
@@ -18,3 +19,7 @@
 
 (om/root widget {:text "Hello world2!"}
   {:target (. js/document (getElementById "app"))})
+
+(defn whoami
+  []
+  (.-userAgent js/navigator))
