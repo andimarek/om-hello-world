@@ -15,3 +15,4 @@
 Compile cljs with "lein cljsbuild auto dev" and open the index.html in resources
 
 
+test
